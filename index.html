@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Параллакс Темный Лендинг</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* Добавим минимальные стили для отображения контента ниже параллакса */
+        #content-section {
+            background-color: #0d0d1a; 
+            padding: 100px 50px;
+            color: #e0f7fa;
+            min-height: 100vh; /* Убедимся, что можно скроллить */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🚀 Параллакс Проект</div>
+    </header>
+
+    <div class="parallax-wrapper">
+        <div id="layer-far" class="parallax-layer"></div>
+        
+        <div id="layer-near" class="parallax-layer"></div>
+        
+        <div id="layer-content" class="parallax-layer">
+            <div class="hero-content">
+                <h1 class="text-glow">Погружение в Глубину</h1>
+                <p>Больше инфы про маленьго пидораса</p>
+                <a href="#content-section" class="cta-button">Продолжить</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="content-section">
+        <h2>Андрей пидорас</h2>
+        <p>Андрей немощь ебаный в кс и он сосет писю everyday </p>
+        <p>Он зашел в дс, делал хуйню в игре, парни дали понять что он немощь и он ливнул с позором</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>Конец страницы.</p>
+    </section>
+
+    <script src="app.js"></script> 
+</body>
+</html>
